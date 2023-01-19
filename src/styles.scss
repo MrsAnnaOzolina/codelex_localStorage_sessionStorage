@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500&display=swap');
+
 body {
   background-color: antiquewhite;
+}
+button{
+ margin-top:20px;
+ background: #FF6464;
+border-radius: 2px;
+border: none;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+padding: 9px 21px 17px 20px;
+color: #FFFFFF;
+width: 350px;
+&:hover{
+  cursor: pointer;
+}
+}
+h2{
+  color: red;
 }
